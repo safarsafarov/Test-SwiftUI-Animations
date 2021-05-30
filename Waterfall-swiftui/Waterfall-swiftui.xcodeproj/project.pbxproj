@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F653DCC1266575BC00E38549 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F653DCC0266575BC00E38549 /* UserViewModel.swift */; };
-		F65E68FC2663188E00CC55BE /* form_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E68FB2663188E00CC55BE /* form_testApp.swift */; };
-		F65E68FE2663188E00CC55BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E68FD2663188E00CC55BE /* ContentView.swift */; };
-		F65E69002663188F00CC55BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65E68FF2663188F00CC55BE /* Assets.xcassets */; };
-		F65E69032663188F00CC55BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65E69022663188F00CC55BE /* Preview Assets.xcassets */; };
+		F653DCCF2665771B00E38549 /* Waterfall_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F653DCCE2665771B00E38549 /* Waterfall_swiftuiApp.swift */; };
+		F653DCD12665771B00E38549 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F653DCD02665771B00E38549 /* ContentView.swift */; };
+		F653DCD32665771C00E38549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F653DCD22665771C00E38549 /* Assets.xcassets */; };
+		F653DCD62665771C00E38549 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F653DCD52665771C00E38549 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F653DCC0266575BC00E38549 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
-		F65E68F82663188E00CC55BE /* form-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "form-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F65E68FB2663188E00CC55BE /* form_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = form_testApp.swift; sourceTree = "<group>"; };
-		F65E68FD2663188E00CC55BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F65E68FF2663188F00CC55BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F65E69022663188F00CC55BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F65E69042663188F00CC55BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F653DCCB2665771B00E38549 /* Waterfall-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waterfall-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F653DCCE2665771B00E38549 /* Waterfall_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waterfall_swiftuiApp.swift; sourceTree = "<group>"; };
+		F653DCD02665771B00E38549 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F653DCD22665771C00E38549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F653DCD52665771C00E38549 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F653DCD72665771C00E38549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F65E68F52663188E00CC55BE /* Frameworks */ = {
+		F653DCC82665771B00E38549 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,63 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F653DCBC2665758D00E38549 /* Model */ = {
+		F653DCC22665771B00E38549 = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F653DCBE2665759E00E38549 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F653DCBF266575AC00E38549 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				F653DCC0266575BC00E38549 /* UserViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		F65E68EF2663188E00CC55BE = {
-			isa = PBXGroup;
-			children = (
-				F65E68FA2663188E00CC55BE /* form-test */,
-				F65E68F92663188E00CC55BE /* Products */,
+				F653DCCD2665771B00E38549 /* Waterfall-swiftui */,
+				F653DCCC2665771B00E38549 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F65E68F92663188E00CC55BE /* Products */ = {
+		F653DCCC2665771B00E38549 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F65E68F82663188E00CC55BE /* form-test.app */,
+				F653DCCB2665771B00E38549 /* Waterfall-swiftui.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F65E68FA2663188E00CC55BE /* form-test */ = {
+		F653DCCD2665771B00E38549 /* Waterfall-swiftui */ = {
 			isa = PBXGroup;
 			children = (
-				F653DCBF266575AC00E38549 /* ViewModel */,
-				F653DCBE2665759E00E38549 /* View */,
-				F653DCBC2665758D00E38549 /* Model */,
-				F65E68FB2663188E00CC55BE /* form_testApp.swift */,
-				F65E68FD2663188E00CC55BE /* ContentView.swift */,
-				F65E68FF2663188F00CC55BE /* Assets.xcassets */,
-				F65E69042663188F00CC55BE /* Info.plist */,
-				F65E69012663188F00CC55BE /* Preview Content */,
+				F653DCCE2665771B00E38549 /* Waterfall_swiftuiApp.swift */,
+				F653DCD02665771B00E38549 /* ContentView.swift */,
+				F653DCD22665771C00E38549 /* Assets.xcassets */,
+				F653DCD72665771C00E38549 /* Info.plist */,
+				F653DCD42665771C00E38549 /* Preview Content */,
 			);
-			path = "form-test";
+			path = "Waterfall-swiftui";
 			sourceTree = "<group>";
 		};
-		F65E69012663188F00CC55BE /* Preview Content */ = {
+		F653DCD42665771C00E38549 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F65E69022663188F00CC55BE /* Preview Assets.xcassets */,
+				F653DCD52665771C00E38549 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -99,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F65E68F72663188E00CC55BE /* form-test */ = {
+		F653DCCA2665771B00E38549 /* Waterfall-swiftui */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F65E69072663188F00CC55BE /* Build configuration list for PBXNativeTarget "form-test" */;
+			buildConfigurationList = F653DCDA2665771C00E38549 /* Build configuration list for PBXNativeTarget "Waterfall-swiftui" */;
 			buildPhases = (
-				F65E68F42663188E00CC55BE /* Sources */,
-				F65E68F52663188E00CC55BE /* Frameworks */,
-				F65E68F62663188E00CC55BE /* Resources */,
+				F653DCC72665771B00E38549 /* Sources */,
+				F653DCC82665771B00E38549 /* Frameworks */,
+				F653DCC92665771B00E38549 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "form-test";
-			productName = "form-test";
-			productReference = F65E68F82663188E00CC55BE /* form-test.app */;
+			name = "Waterfall-swiftui";
+			productName = "Waterfall-swiftui";
+			productReference = F653DCCB2665771B00E38549 /* Waterfall-swiftui.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F65E68F02663188E00CC55BE /* Project object */ = {
+		F653DCC32665771B00E38549 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					F65E68F72663188E00CC55BE = {
+					F653DCCA2665771B00E38549 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = F65E68F32663188E00CC55BE /* Build configuration list for PBXProject "form-test" */;
+			buildConfigurationList = F653DCC62665771B00E38549 /* Build configuration list for PBXProject "Waterfall-swiftui" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,43 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = F65E68EF2663188E00CC55BE;
-			productRefGroup = F65E68F92663188E00CC55BE /* Products */;
+			mainGroup = F653DCC22665771B00E38549;
+			productRefGroup = F653DCCC2665771B00E38549 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F65E68F72663188E00CC55BE /* form-test */,
+				F653DCCA2665771B00E38549 /* Waterfall-swiftui */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F65E68F62663188E00CC55BE /* Resources */ = {
+		F653DCC92665771B00E38549 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F65E69032663188F00CC55BE /* Preview Assets.xcassets in Resources */,
-				F65E69002663188F00CC55BE /* Assets.xcassets in Resources */,
+				F653DCD62665771C00E38549 /* Preview Assets.xcassets in Resources */,
+				F653DCD32665771C00E38549 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F65E68F42663188E00CC55BE /* Sources */ = {
+		F653DCC72665771B00E38549 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F65E68FE2663188E00CC55BE /* ContentView.swift in Sources */,
-				F653DCC1266575BC00E38549 /* UserViewModel.swift in Sources */,
-				F65E68FC2663188E00CC55BE /* form_testApp.swift in Sources */,
+				F653DCD12665771B00E38549 /* ContentView.swift in Sources */,
+				F653DCCF2665771B00E38549 /* Waterfall_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F65E69052663188F00CC55BE /* Debug */ = {
+		F653DCD82665771C00E38549 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		F65E69062663188F00CC55BE /* Release */ = {
+		F653DCD92665771C00E38549 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,44 +262,44 @@
 			};
 			name = Release;
 		};
-		F65E69082663188F00CC55BE /* Debug */ = {
+		F653DCDB2665771C00E38549 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"form-test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Waterfall-swiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = 73DJK9R2PB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "form-test/Info.plist";
+				INFOPLIST_FILE = "Waterfall-swiftui/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.form-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.Waterfall-swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F65E69092663188F00CC55BE /* Release */ = {
+		F653DCDC2665771C00E38549 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"form-test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Waterfall-swiftui/Preview Content\"";
 				DEVELOPMENT_TEAM = 73DJK9R2PB;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "form-test/Info.plist";
+				INFOPLIST_FILE = "Waterfall-swiftui/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.form-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "safarslife.Waterfall-swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F65E68F32663188E00CC55BE /* Build configuration list for PBXProject "form-test" */ = {
+		F653DCC62665771B00E38549 /* Build configuration list for PBXProject "Waterfall-swiftui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F65E69052663188F00CC55BE /* Debug */,
-				F65E69062663188F00CC55BE /* Release */,
+				F653DCD82665771C00E38549 /* Debug */,
+				F653DCD92665771C00E38549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F65E69072663188F00CC55BE /* Build configuration list for PBXNativeTarget "form-test" */ = {
+		F653DCDA2665771C00E38549 /* Build configuration list for PBXNativeTarget "Waterfall-swiftui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F65E69082663188F00CC55BE /* Debug */,
-				F65E69092663188F00CC55BE /* Release */,
+				F653DCDB2665771C00E38549 /* Debug */,
+				F653DCDC2665771C00E38549 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F65E68F02663188E00CC55BE /* Project object */;
+	rootObject = F653DCC32665771B00E38549 /* Project object */;
 }
