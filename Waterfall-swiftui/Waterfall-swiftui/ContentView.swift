@@ -17,7 +17,7 @@ struct ContentView: View {
             
         var body: some View {
             let gridItems = Array(repeating: GridItem(.fixed(hexagonWidth), spacing: spacing), count: cols)
-
+            
             ScrollView(.vertical) {
                 LazyVGrid(columns: gridItems, spacing: spacing) {
                     ForEach(0..<200) { idx in
