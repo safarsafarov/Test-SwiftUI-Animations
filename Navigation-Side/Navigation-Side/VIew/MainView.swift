@@ -9,7 +9,15 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color("blue")
+                .ignoresSafeArea()
+            
+            // Side Menu...
+            ScrollView(getRect().height < 750 ? .vertical : .init(), showsIndicators: false, content: {
+                SudeMenu
+            }
+        }
     }
 }
 
