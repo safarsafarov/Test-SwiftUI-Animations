@@ -48,7 +48,43 @@ struct HomePage: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width: getRect().width - 50, height: 400)
                     .cornerRadius(20)
+                VStack(alignment: .leading, spacing: 5, content: {
+                    Text("Jenna Ezarik")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.primary)
+                    Text("iJustine's Sister, Youtuber, Techie....")
+                        .font(.caption)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.gray)
+                })
             }
+            .navigationTitle("Home")
+        }
+    }
+}
+
+
+struct History: View {
+    var body: some View {
+        NavigationView {
+            Text("History")
+                .font(.targeTitle)
+                .fontWeight(.heavy)
+                .foregroundColor(.primary)
+                .navigationTitle("History")
+        }
+    }
+}
+
+struct Notifications: View {
+    var body: some View {
+        navigationView{
+            Text("Notifications")
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+                .foregroundColor(.primary)
+                .navigationTitle("Notifications")
         }
     }
 }
