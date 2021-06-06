@@ -27,7 +27,7 @@ struct Home: View {
                 .tag("Settings")
             Help()
                 .tag("Help")
-            Notification()
+            Notifications()
                 .tag("Notifications")
         }
     }
@@ -41,7 +41,7 @@ struct Home_Previews: PreviewProvider {
 
 struct HomePage: View {
     var body: some View {
-        navigationView{
+        NavigationView{
             VStack(alignment: .leading, spacing: 20){
                 Image("pic")
                     .resizable()
@@ -69,7 +69,7 @@ struct History: View {
     var body: some View {
         NavigationView {
             Text("History")
-                .font(.targeTitle)
+                .font(.largeTitle)
                 .fontWeight(.heavy)
                 .foregroundColor(.primary)
                 .navigationTitle("History")
@@ -79,7 +79,7 @@ struct History: View {
 
 struct Notifications: View {
     var body: some View {
-        navigationView{
+        NavigationView{
             Text("Notifications")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
@@ -88,3 +88,28 @@ struct Notifications: View {
         }
     }
 }
+
+struct Settings: View {
+    var body: some View {
+        NavigationView{
+            Text("Settings")
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+                .foregroundColor(.primary)
+                .navigationTitle("Settings")
+        }
+    }
+}
+
+struct Help: View {
+    var body: some View {
+        NavigationView{
+            Text("Help")
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+                .foregroundColor(.primary)
+                .navigationTitle("Help")
+        }
+    }
+}
+
