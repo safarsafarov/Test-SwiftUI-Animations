@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct SideMenu: View {
+    @Binding var selectedTab: String
+    @Namespace var animation
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, spacing: 15, content: {
+            Image("profile")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+            
+        })
     }
 }
 
