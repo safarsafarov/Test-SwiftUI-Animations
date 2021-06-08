@@ -32,7 +32,7 @@ struct SideMenu: View {
                     Text("View Profile")
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
-                        .opcaity(0.7)
+                        .opacity(0.7)
                 })
             })
             
