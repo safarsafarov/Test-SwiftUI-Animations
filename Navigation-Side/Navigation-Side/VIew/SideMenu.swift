@@ -17,6 +17,24 @@ struct SideMenu: View {
             Image("profile")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
+                .frame(width: 70, height: 70)
+                .cornerRadius(10)
+                //Padding top for Top Close Button...
+                .padding(.top, 50)
+            
+            VStack(alignment: .leading, spacing: 6, content: {
+                Text("Jenna Ezarik")
+                    .font(.title)
+                    .fontWeight(.heavy)
+                    .foregroundColor(.white)
+                
+                Button(action: {}, label: {
+                    Text("View Profile")
+                        .fontWeight(.semibold)
+                        .foregroundColor(.white)
+                        .opcaity(0.7)
+                })
+            })
             
         })
     }
