@@ -35,7 +35,10 @@ struct SideMenu: View {
                         .opacity(0.7)
                 })
             })
-            
+            VStack(alignment: .leading, spacing: 10) {
+                TabButton(image: "house", title: "Home", selectedTab: $selectedTab, animation: animation)
+                TabButton(image: "clock.arrow.circlepath", title: "History", selectedTab: $selectedTab, animation: animation)
+            }
         })
     }
 }
