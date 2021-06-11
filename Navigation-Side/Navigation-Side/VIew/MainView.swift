@@ -18,14 +18,14 @@ struct MainView: View {
                 Color.white
                     .opacity(0.5)
                     .cornerRadius(showMenu ? 15 : 0)
-                // Shadow
+                    // Shadow
                     .shadow(color: Color.black.opacity(0.07), radius: 5, x: -5, y: 0)
                     .offset(x: showMenu ? -25 : 0)
                     .padding(.vertical, 30)
                 Color.white
                     .opacity(0.4)
                     .cornerRadius(showMenu ? 15 : 0)
-                // Shadow...
+                    // Shadow...
                     .shadow(color: Color.black.opacity(0.07), radius: 5, x: -5, y: 0)
                     .offset(x: showMenu ? -50 : 0)
                     .padding(.vertical, 60)
@@ -37,16 +37,20 @@ struct MainView: View {
                 Button(action: {
                     withAnimation(.spring()) {
                         showMenu.toggle()
-                    }, label: {
-                        VStack(spacing: 5){
-                            Capsule()
-                                .fill(showMenu ? Color.white :  Color:primary)
-                                .frame(width: 30, height: 3)
-                            
-                        }
                     }
-                })
-            )
-        }
+                }, label: {
+                    VStack(spacing: 5){
+                        Capsule()
+                            .fill(showMenu ? Color.white :  Color.primary)
+                            .frame(width: 30, height: 3)
+                        Capsule()
+                            .fill(showMenu ? Color.white : Color.primary)
+                            .frame(width: 30, height: 3)
+                            .offset(y: showMenu ? -8 : 0)
+                        
+                    }
+                }
+            })
+        )
     }
 }
