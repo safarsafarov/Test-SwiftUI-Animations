@@ -14,6 +14,7 @@
 		F631FAAC267B95F100A2E9FA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631FAAB267B95F100A2E9FA /* MainView.swift */; };
 		F631FAAE267B977800A2E9FA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631FAAD267B977800A2E9FA /* Home.swift */; };
 		F631FAB0267B9B6A00A2E9FA /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631FAAF267B9B6A00A2E9FA /* SideMenu.swift */; };
+		F6BE9042267E4C08005A90D2 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE9041267E4C08005A90D2 /* CustomCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F631FAAB267B95F100A2E9FA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F631FAAD267B977800A2E9FA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		F631FAAF267B9B6A00A2E9FA /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		F6BE9041267E4C08005A90D2 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				F631FAAB267B95F100A2E9FA /* MainView.swift */,
 				F631FAAD267B977800A2E9FA /* Home.swift */,
 				F631FAAF267B9B6A00A2E9FA /* SideMenu.swift */,
+				F6BE9041267E4C08005A90D2 /* CustomCorners.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F631FA9E267B95C800A2E9FA /* ContentView.swift in Sources */,
+				F6BE9042267E4C08005A90D2 /* CustomCorners.swift in Sources */,
 				F631FAAC267B95F100A2E9FA /* MainView.swift in Sources */,
 				F631FAB0267B9B6A00A2E9FA /* SideMenu.swift in Sources */,
 				F631FAAE267B977800A2E9FA /* Home.swift in Sources */,
