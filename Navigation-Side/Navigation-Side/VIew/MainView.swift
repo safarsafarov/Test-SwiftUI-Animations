@@ -30,7 +30,23 @@ struct MainView: View {
                     .offset(x: showMenu ? -50 : 0)
                     .padding(.vertical, 60)
             }
-            .scaleEffect()
+            .scaleEffect(showMenu ? 0.84 : 1)
+            .offset(x: showMenu ? getRect().width - 120 : 0)
+            .ignoresSafeArea()
+            .overlay(
+                Button(action: {
+                    withAnimation(.spring()) {
+                        showMenu.toggle()
+                    }, label: {
+                        VStack(spacing: 5){
+                            Capsule()
+                                .fill(showMenu ? Color.white :  Color:primary)
+                                .frame(width: 30, height: 3)
+                            
+                        }
+                    }
+                })
+            )
         }
     }
 }
