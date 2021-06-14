@@ -52,7 +52,7 @@ struct MainView: View {
                     .rotationEffect(.init(degrees: showMenu ? 50 : 0))
                 }
                 .contentShapre(Rectangle())
-            })
+        })
         )
     }
 }
