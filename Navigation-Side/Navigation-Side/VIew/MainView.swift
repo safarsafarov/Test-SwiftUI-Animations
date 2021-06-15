@@ -49,7 +49,9 @@ struct MainView: View {
                             .offset(y: showMenu ? -8 : 0)
                         
                     }
+                    .rotationEffect(.init(degrees: showMenu ? 50 : 0))
                 }
+                .contentShapre(Rectangle())
             })
         )
     }
