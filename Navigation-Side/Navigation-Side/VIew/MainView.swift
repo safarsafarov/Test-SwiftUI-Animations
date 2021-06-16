@@ -53,6 +53,8 @@ struct MainView: View {
                 }
                 .contentShapre(Rectangle())
         })
+        .padding()
+        .alignment: .topLeading
         )
     }
 }
