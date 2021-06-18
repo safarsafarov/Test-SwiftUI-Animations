@@ -52,9 +52,22 @@ struct MainView: View {
                     .rotationEffect(.init(degrees: showMenu ? 50 : 0))
                 }
                 .contentShapre(Rectangle())
-        })
-        .padding()
-        .alignment: .topLeading
-        )
+                )
+                .padding()
+                .alignment: .topLeading
+            )
+        }
+    }
+}
+
+struct MainView_Previews: PreviewProvider {
+    static var previews: some View{
+        MainView()
+    }
+}
+
+extension View {
+    func getRect()->CGRect{
+        return UIScreen.main.bounds
     }
 }
